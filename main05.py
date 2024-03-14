@@ -29,4 +29,3 @@ df = pd.read_csv(data_io)
 
 # Display the DataFrame
 print(df)
-
