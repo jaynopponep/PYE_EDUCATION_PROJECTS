@@ -1,8 +1,7 @@
 # 7. CREATING A USER INTERFACE IN THE CONSOLE
 
 def greeting():
-    # Function to display a message
-    print("Hello!")
+    print("Hello")
 
 
 def add():
@@ -14,18 +13,17 @@ def add():
 def main_menu():
     while True:
         print("\nMenu:")
-        print("1. Display a Message")
+        print("1. Display a message")
         print("2. Add Two Numbers")
-        print("3. Exit")
+        print("3. Exit the program")
+        choice = input("Enter a choice (1-3):")
 
-        choice = input("Enter your choice (1-3): ")
-
-        if choice == '1':
+        if choice == "1":
             greeting()
-        elif choice == '2':
+        elif choice == "2":
             add()
-        elif choice == '3':
-            print("Exiting program...")
+        elif choice == "3":
+            print("Exiting the program...")
             break
         else:
             print("Invalid choice. Please try again.")
@@ -33,3 +31,5 @@ def main_menu():
 
 if __name__ == "__main__":
     main_menu()
+
+
