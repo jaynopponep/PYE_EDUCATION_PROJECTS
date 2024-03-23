@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-API_KEY = '4aabafc87014ff23f087fc1c2776cf55'
+API_KEY = '[INSERT YOUR API KEY HERE]'
 
 
 def get_weather(city):
